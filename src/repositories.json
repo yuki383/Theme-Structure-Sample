@@ -1,0 +1,182 @@
+[
+  {
+    "name": "react-native-navbar",
+    "description": "Navbar component for React Native",
+    "owner_name": "react-native-community",
+    "html_url": "https://github.com/react-native-community/react-native-navbar"
+  },
+  {
+    "name": "react-native-video",
+    "description": "A <Video /> component for react-native",
+    "owner_name": "react-native-community",
+    "html_url": "https://github.com/react-native-community/react-native-video"
+  },
+  {
+    "name": "react-native-linear-gradient",
+    "description": "A <LinearGradient /> component for react-native",
+    "owner_name": "react-native-community",
+    "html_url": "https://github.com/react-native-community/react-native-linear-gradient"
+  },
+  {
+    "name": "react-native-camera",
+    "description": "A Camera component for React Native. Also supports barcode scanning!",
+    "owner_name": "react-native-community",
+    "html_url": "https://github.com/react-native-community/react-native-camera"
+  },
+  {
+    "name": "react-native-blur",
+    "description": "React Native Blur component",
+    "owner_name": "react-native-community",
+    "html_url": "https://github.com/react-native-community/react-native-blur"
+  },
+  {
+    "name": "react-native-image-picker",
+    "description": ":sunrise_over_mountains: A React Native module that allows you to use native UI to select media from the device library or directly from the camera.",
+    "owner_name": "react-native-community",
+    "html_url": "https://github.com/react-native-community/react-native-image-picker"
+  },
+  {
+    "name": "google-signin",
+    "description": "Google Sign-in for your React Native applications",
+    "owner_name": "react-native-community",
+    "html_url": "https://github.com/react-native-community/google-signin"
+  },
+  {
+    "name": "react-native-device-info",
+    "description": "Device Information for React Native iOS and Android",
+    "owner_name": "react-native-community",
+    "html_url": "https://github.com/react-native-community/react-native-device-info"
+  },
+  {
+    "name": "react-native-share",
+    "description": "Social share, sending simple data to other apps.",
+    "owner_name": "react-native-community",
+    "html_url": "https://github.com/react-native-community/react-native-share"
+  },
+  {
+    "name": "react-native-maps",
+    "description": "React Native Mapview component for iOS + Android",
+    "owner_name": "react-native-community",
+    "html_url": "https://github.com/react-native-community/react-native-maps"
+  },
+  {
+    "name": "react-native-svg",
+    "description": "SVG library for React Native, React Native Web, and plain React web projects.",
+    "owner_name": "react-native-community",
+    "html_url": "https://github.com/react-native-community/react-native-svg"
+  },
+  {
+    "name": "react-native-permissions",
+    "description": "An unified permissions API for React Native on iOS and Android",
+    "owner_name": "react-native-community",
+    "html_url": "https://github.com/react-native-community/react-native-permissions"
+  },
+  {
+    "name": "react-native-audio-toolkit",
+    "description": "Cross-platform audio library for React Native",
+    "owner_name": "react-native-community",
+    "html_url": "https://github.com/react-native-community/react-native-audio-toolkit"
+  },
+  {
+    "name": "react-native-modal",
+    "description": "An enhanced, animated and customizable react-native modal",
+    "owner_name": "react-native-community",
+    "html_url": "https://github.com/react-native-community/react-native-modal"
+  },
+  {
+    "name": "boost-for-react-native",
+    "description": "The Boost C++ library source code used to build React Native from source",
+    "owner_name": "react-native-community",
+    "html_url": "https://github.com/react-native-community/boost-for-react-native"
+  },
+  {
+    "name": "normalize-css-color",
+    "description": "Normalize a subset of CSS color values into integers",
+    "owner_name": "react-native-community",
+    "html_url": "https://github.com/react-native-community/normalize-css-color"
+  },
+  {
+    "name": "lottie-react-native",
+    "description": "Lottie wrapper for React Native.",
+    "owner_name": "react-native-community",
+    "html_url": "https://github.com/react-native-community/lottie-react-native"
+  },
+  {
+    "name": "react-native-drawer-layout",
+    "description": "A platform-agnostic drawer layout for react-native",
+    "owner_name": "react-native-community",
+    "html_url": "https://github.com/react-native-community/react-native-drawer-layout"
+  },
+  {
+    "name": "react-native-drawer-layout-polyfill",
+    "description": "A polyfill for React Natives DrawerLayoutAndroid",
+    "owner_name": "react-native-community",
+    "html_url": "https://github.com/react-native-community/react-native-drawer-layout-polyfill"
+  },
+  {
+    "name": "jsc-android-buildscripts",
+    "description": "Script for building JavaScriptCore for Android (for React Native but not only)",
+    "owner_name": "react-native-community",
+    "html_url": "https://github.com/react-native-community/jsc-android-buildscripts"
+  },
+  {
+    "name": "directory",
+    "description": "A searchable and filterable directory of React Native libraries",
+    "owner_name": "react-native-community",
+    "html_url": "https://github.com/react-native-community/directory"
+  },
+  {
+    "name": "react-native-text-input-mask",
+    "description": "Text input mask for React Native, Android and iOS",
+    "owner_name": "react-native-community",
+    "html_url": "https://github.com/react-native-community/react-native-text-input-mask"
+  },
+  {
+    "name": "react-native-localize",
+    "description": "🌍 A toolbox for your React Native app localization (formerly react-native-languages)",
+    "owner_name": "react-native-community",
+    "html_url": "https://github.com/react-native-community/react-native-localize"
+  },
+  {
+    "name": "eslint-plugin-react-native-globals",
+    "description": "ESLint Environment for React Native",
+    "owner_name": "react-native-community",
+    "html_url": "https://github.com/react-native-community/eslint-plugin-react-native-globals"
+  },
+  {
+    "name": "cameraview",
+    "description": "Easily integrate Camera features into your Android app",
+    "owner_name": "react-native-community",
+    "html_url": "https://github.com/react-native-community/cameraview"
+  },
+  {
+    "name": "releases",
+    "description": "React Native releases",
+    "owner_name": "react-native-community",
+    "html_url": "https://github.com/react-native-community/releases"
+  },
+  {
+    "name": "react-native-template-typescript",
+    "description": "👾 Clean and minimalist React Native template for a quick start with TypeScript.",
+    "owner_name": "react-native-community",
+    "html_url": "https://github.com/react-native-community/react-native-template-typescript"
+  },
+  {
+    "name": "discussions-and-proposals",
+    "description": "Discussions and proposal related to the main React Native project",
+    "owner_name": "react-native-community",
+    "html_url": "https://github.com/react-native-community/discussions-and-proposals"
+  },
+  {
+    "name": "react-native-webview",
+    "description": "React Native Cross-Platform WebView",
+    "owner_name": "react-native-community",
+    "html_url": "https://github.com/react-native-community/react-native-webview"
+  },
+  {
+    "name": "cli",
+    "description": "React Native command line tools",
+    "owner_name": "react-native-community",
+    "html_url": "https://github.com/react-native-community/cli"
+  }
+]
