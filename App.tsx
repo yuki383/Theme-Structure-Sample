@@ -18,6 +18,8 @@ declare const global: {HermesInternal: null | {}};
 const App = () => {
   const [theme, setTheme] = useState<Schemes>('light');
 
+  const barStyle = theme === 'light' ? 'dark-content' : 'light-content';
+
   const toggleTheme = useCallback(() => {
     setTheme((prev) => {
       if (prev === 'light') {
@@ -28,7 +30,7 @@ const App = () => {
   }, [setTheme]);
   return (
     <ThemeProvider theme={AppTheme[theme]}>
-      <StatusBar barStyle="dark-content" />
+      <StatusBar barStyle={barStyle} />
       <Main toggleTheme={toggleTheme} />
     </ThemeProvider>
   );
