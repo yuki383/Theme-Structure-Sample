@@ -10,7 +10,7 @@ const typeRepo = <T extends Repositories>(repos: T) => repos;
 
 const data = typeRepo(Repos);
 
-export const Main: React.FC = () => {
+export const Main: React.FC<{toggleTheme: () => unknown}> = (props) => {
   return (
     <ContainerView>
       <View>
@@ -38,7 +38,7 @@ export const Main: React.FC = () => {
             );
           }}
         />
-        <Header label={'RNC Repos'} />
+        <Header label={'RNC Repos'} onPressRight={props.toggleTheme} />
       </View>
     </ContainerView>
   );

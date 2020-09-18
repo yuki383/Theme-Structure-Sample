@@ -19,7 +19,7 @@ export type ThemeScheme = {
   scheme: Schemes;
 };
 
-type Schemes = 'light' | 'dark';
+export type Schemes = 'light' | 'dark';
 
 const castToTheme = <T extends Record<Schemes, ThemeScheme>>(theme: T) => theme;
 
@@ -44,9 +44,9 @@ export const theme = castToTheme({
   },
   dark: {
     color: {
-      primary: 'rgb(25, 23. 29)',
+      primary: 'rgb(27, 29, 33)',
       secondary: 'rgb(33, 138, 245)',
-      background: 'rgb(27, 29, 33)',
+      background: 'rgb(25, 23, 29)',
       surface: 'rgb(27, 29, 33)',
 
       onPrimary: '#fff',
