@@ -14,16 +14,16 @@ type ColorScheme = {
   onSurfaceAlt: string;
 };
 
-type ThemeScheme = {
+export type ThemeScheme = {
   color: ColorScheme;
   scheme: Schemes;
 };
 
 type Schemes = 'light' | 'dark';
 
-export const theme: {
-  light: ThemeScheme;
-} = {
+const castToTheme = <T extends Record<Schemes, ThemeScheme>>(theme: T) => theme;
+
+export const theme = castToTheme({
   light: {
     color: {
       primary: '#fff',
@@ -42,4 +42,22 @@ export const theme: {
     },
     scheme: 'light',
   },
-};
+  dark: {
+    color: {
+      primary: 'rgb(25, 23. 29)',
+      secondary: 'rgb(33, 138, 245)',
+      background: 'rgb(27, 29, 33)',
+      surface: 'rgb(27, 29, 33)',
+
+      onPrimary: '#fff',
+      onPrimaryAlt: 'rgb(108,122,140)',
+      onSecondary: '#fff',
+      onSecondaryAlt: 'rgb(108,122,140)',
+      onBackground: '#fff',
+      onBackgroundAlt: 'rgb(108,122,140)',
+      onSurface: '#fff',
+      onSurfaceAlt: 'rgb(108,122,140)',
+    },
+    scheme: 'dark',
+  },
+});
