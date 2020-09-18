@@ -27,7 +27,7 @@ const ContainerView = styled.View`
         shadow-color: black;
         shadow-offset: 0 4px;
         shadow-opacity: 0.1;
-        shadow-radius: 2;
+        shadow-radius: 2px;
       `;
     }
     return undefined;
